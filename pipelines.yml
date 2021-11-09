@@ -9,5 +9,5 @@ pipelines:
             approvers:
               - admin
         execution:
-          onExecute:
+          onComplete:
             - echo "executing step..."
